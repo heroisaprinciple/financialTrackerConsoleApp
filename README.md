@@ -1,37 +1,94 @@
-# FinancialTrackerConsoleApp
+This is a test console application for a Trainee Ruby Dev 
+at Evowill. A user is able to monitor his/her expenses, 
+create new categories and delete all records.
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/financialTrackerConsoleApp`. To experiment with that code, run `bin/console` for an interactive prompt.
+**I also dumped my db to a SQL file, so it is possible to see the structure.**
 
-TODO: Delete this and the text above, and describe your gem
+______________
+<h1>Adding data</h1>
 
-## Installation
+**A user is able to choose any action from the menu.**
 
-Install the gem and add to the application's Gemfile by executing:
+<h3>Registration</h3>
+By entering some personal date, a person will be registered and saved 
+into the database.
+   ![menuScreen](https://i.imgur.com/0mEQDdz.png)
 
-    $ bundle add financialTrackerConsoleApp
+<h3>Adding the element (to a new category) </h3>
+I added some categories to test the program: Food, Entertainment and
+Health. A user can also create his/her own category. 
+I'll create a new category, named 'Clothes' and add 'Purple Jeans' in order for you to see how program works.
+![chooseCategory](https://i.imgur.com/i7WtERV.png)
 
-If bundler is not being used to manage dependencies, install the gem by executing:
+<h3>Adding the element (to an existing category) </h3>
+A user can add a new element to an existing category, in essence, Entertainment.
+![addToExistingCategory](https://i.imgur.com/5HXtufG.png)
 
-    $ gem install financialTrackerConsoleApp
+__________________________
 
-## Usage
+<h1>Statistics</h1>
 
-TODO: Write usage instructions here
+**A user is able to see statistics by choosing the action from the menu.**
 
-## Development
+<h3>Seeing statistics of all categories, for all time.</h3>
+![allTheTime](https://i.imgur.com/t4MJYCH.png)
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+<h3>Seeing statistics of a particular category, sorted by day</h3>
+![allDay](https://i.imgur.com/BAFGq5m.png)
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+<h3>Seeing statistics for a particular category, sorted by month</h3>
+![allMonth](https://i.imgur.com/hLuSTju.png)
 
-## Contributing
+<h3>Seeing statistics for a particular category, sorted by year</h3>
+Let's add a new entity for the test, named 'Yellow Scarf', which
+I bought two months ago.
+![addScarf](https://i.imgur.com/YoZizTU.png)
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/financialTrackerConsoleApp. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/financialTrackerConsoleApp/blob/master/CODE_OF_CONDUCT.md).
+Then, I'll select statistics for the year.
+![checkAll](https://i.imgur.com/qPR0sOO.png)
 
-## License
+<h3>Seeing statistics for all categories, sorted by month and year</h3
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+**By month**
 
-## Code of Conduct
+![checkAllMonth](https://i.imgur.com/R0W0H7R.png)
+**By year**
 
-Everyone interacting in the FinancialTrackerConsoleApp project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/financialTrackerConsoleApp/blob/master/CODE_OF_CONDUCT.md).
+![checkAllYear](https://i.imgur.com/qK6lZkc.png)
+
+_____________________
+
+<h1>Clearing everything</h1>
+
+<h3>A user is able to delete all records</h3>
+
+![deleteThings](https://i.imgur.com/PpTsWQH.png)
+
+__________________
+
+<h1>Restrictions</h1>
+
+<h3>A user is not able to add entity or see statistics unless
+he/she provides correct credentials when login</h3>
+
+![test](https://i.imgur.com/VQg6u83.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
